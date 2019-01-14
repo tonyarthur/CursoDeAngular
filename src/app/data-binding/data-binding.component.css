@@ -1,0 +1,8 @@
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+.two-way-binding input{
+    margin-right: 10px;
+    margin-left: 10px;
+}
