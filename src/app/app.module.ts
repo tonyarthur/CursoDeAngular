@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import {FormsModule} from '@angular/forms';
+import { DiretivasComponent } from './diretivas/diretivas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MeuPrimeiroComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    DiretivasComponent
   ],
   imports: [
     BrowserModule,
